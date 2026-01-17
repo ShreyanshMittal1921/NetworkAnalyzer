@@ -1,0 +1,19 @@
+Flask==2.3.2               # Web framework for the dashboard
+Flask-WTF==1.1.1           # For handling forms in Flask
+#Chart.js==3.7.1           # JavaScript library for creating visualizations (used in the web dashboard)
+
+scapy==2.5.0               # For packet crafting and network traffic monitoring
+matplotlib==3.8.0          # For additional visualizations and debugging
+numpy==1.26.0              # Used for efficient computation on packet data
+pandas==2.1.1              # For traffic data analysis and logging
+
+pytest==7.4.2              # For unit testing the detection scripts
+gunicorn==21.0.0           # WSGI server for running Flask in production
+gevent==23.9.1             # For handling concurrent traffic monitoring
+
+jsonschema==4.19.0         # For validating log file structures
+Jinja2==3.1.2              # Templating engine used by Flask
+
+# Development tools
+black==23.7.0              # Code formatting
+flake8==6.1.0              # Code linting
